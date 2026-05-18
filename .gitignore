@@ -1,0 +1,12 @@
+# Repo публикует только статический staticrypt-архив. Локальные исходники
+# (decrypted.html, prototype/, _analysis/, бэкапы, standalone-превью)
+# в репо не идут — это рабочая папка автора.
+
+# Игнорируем всё по умолчанию
+*
+
+# Whitelist: только публикуемые файлы и сам .gitignore
+!.gitignore
+!.nojekyll
+!README.md
+!index.html
